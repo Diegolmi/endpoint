@@ -1,5 +1,6 @@
 body{
 	font-family: 'roboto' !important;
+	text-align: justify;
 }
 a{
 	text-decoration: none !important;
@@ -9,15 +10,24 @@ img{
 	width: 100%;
 }
 .padding{
-	padding: 0 130px;
+	padding: 40px 130px;
+}
+.padding_2{
+	padding: 0 100px;
 }
 .azul{
 	background: #0c2e5c;
+	background: #003366;
 	color: #fff;
 }
 .negro{
 	background: #000;
 	color: #fff;
+}
+.titulo{
+	padding-bottom: 30px;
+	font-size: 40px;
+	font-weight: bold;
 }
 .contenedor-menu{
 	width: 100%;
@@ -46,21 +56,31 @@ img{
 .btn-menu .icono{
 	float: right;
 }
-
-
+.quienessomos_descripciones{
+	margin-top: 20px;
+}
+.cuadro{
+	display: inline-block;
+	vertical-align: top;
+	width: 29%;
+	border: 2px solid white;
+	padding: 20px;
+	font-size: 14px;
+}
+.cuadro:nth-child(2){
+	margin: 0 6%;
+}
 .footer{
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
 }
 .contenido_footer{
 	padding-bottom: 20px;
 	font-size: 12px;
-	text-align: justify;
 }
 .logo_footer, .descripcion_footer, .cluster_footer{
 	vertical-align: top;
 	display: inline-block;
+	text-align: justify;
 	width: 30%;
 }
 .logo_footer{
@@ -88,8 +108,10 @@ img{
 	width: 40px;
 	margin: 0 5px;
 }
+/*
 @media (max-width: 768px){
 	.btn-menu{
 		display: inline-block;
 	}
 }
+*/
